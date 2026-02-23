@@ -37,8 +37,9 @@ Basic UI design principles
 
 ##screenshots
 
-![alt text](first screenshot.PNG)
-![alt text](second screenshot.PNG)
-![alt text](third screenshot.PNG)
-![alt text](fourth screenshot.PNG)
+![alt text](first.png)
+
+![alt text](second.PNG)
+![alt text](third.PNG)
+![alt text](fourth.PNG)
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new book</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+    <nav class="bg-blue-600 text-white p-4 flex justify-between">
+    <img src="Library.png" class="h- w-7 ml-20">
+    <h1 class="font-bold text-xl -ml-[760px]">Library System</h1>
+    <div class="space-x-4 mr-20">
+        <a href="home.html" class="hover:text-gray-500">Home</a>
+        <a href="Add new book.html" class="hover:text-gray-500">Add Book</a>
+        <a href="Book List.html" class="hover:text-gray-500">View Books</a>
+    </div>
+</nav>
+    <div class="ml-[400px] h-[450px] max-w-md w-[900px] max-auto mt-10 bg-gray-300 p-8 rounded-[10px] shadow-lg">
+        <h2 class="text-2xl text-center font-bold"> Add New Book</h2>
+        <form>
+
+            <label class="block mb-2 ml-[160px] mt-4 font-semibold">Title</label>
+            <input type="text" class="border ml-[60px] w-[250px] p-2 rounded-[10px]">
+            <label class="block mb-2 ml-[160px] mt-4 font-semibold">Author</label>
+            <input type="text" class="border ml-[60px] w-[240px] p-2 rounded-[10px]">
+            <label class="block mb-2 ml-[160px] mt-4 font-semibold">Gender</label>
+            <label class="ml-[102px] hover:text-gray-500">Male</label>
+            <input type="radio" name="gender" value="male" class="ml-[2px]">
+            <label class="ml-[10px] hover:text-gray-500" >Female</label>
+            <input type="radio" name="gender" value="female" class="ml-[10px]">
+            <select name="" id="" class="border rounded-[10px] p-2 ml-[60px] w-[240px]">
+                <option value="" class="hover:text-gray-500">Available</option>
+                <option value="" class="hover:text-gray-500">Borrowed</option>
+            </select><br><br>
+          <button class="bg-green-600 text-white w-[240px] hover:text-gray-500 ml-[60px] py-2 mt-[20px] rounded-[10px]"> <a href="Book List.html" >
+                Save Book
+            </a></button>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -35,11 +35,5 @@ Form creation
 Table layout
 Basic UI design principles
 
-##screenshots
 
-![alt text](first.png)
-
-![alt text](second.PNG)
-![alt text](third.PNG)
-![alt text](fourth.PNG)
 
